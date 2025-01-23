@@ -1,0 +1,24 @@
+membuat database diskon
+
+-tabel_user_db
+ -id_user {int} {11} {p}
+ -nama {var} {255}
+ -password {var} {255}
+
+-tabel_nama_produk_db
+ -id_barang {int} {11} {p}
+ -nama_barang {var} {255}
+ -harga_barang {var} {255}
+ -diskon {var} {255}
+
+-kebesaran_diskon_db
+ -diskon
+ -*50 {cont}
+ -*40 {cont}
+ -*30 {cont}
+ -*20 {cont}
+ -*10 {cont}
+
+membuat (rumus hitung diskon)
+ -harga_barang x % (besaran_diskon) harga_setelah_diskon
+ -$000000 x % [] =$000000
